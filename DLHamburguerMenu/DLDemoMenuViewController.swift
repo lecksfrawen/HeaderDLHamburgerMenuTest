@@ -13,7 +13,7 @@ class DLDemoMenuViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var tableView: UITableView!
     
     // data
-    let segues = ["option 1", "option 2", "option 3"]
+    let segues = ["Mi Perfil", "Notificaciones", "Valorar", "Más aplicaciones","Acerca de la app", "Cerrar sesión"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
